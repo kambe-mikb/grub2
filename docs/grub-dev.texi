@@ -613,8 +613,8 @@ tar -zxf libtasn1-4.19.0.tar.gz
 rm -r grub-core/lib/libtasn1/
 mkdir libtasn1/lib
 mkdir -p grub-core/lib/libtasn1/lib/
-cp libtasn1-4.19.0/{README.md,COPYING} grub-core/lib/libtasn1/
-cp libtasn1-4.19.0/lib/{coding.c,decoding.c,element.c,element.h,errors.c,gstr.c,gstr.h,int.h,parser_aux.c,parser_aux.h,structure.c,structure.h} grub-core/lib/libtasn1/lib/
+cp libtasn1-4.19.0/@{README.md,COPYING@} grub-core/lib/libtasn1/
+cp libtasn1-4.19.0/lib/@{coding.c,decoding.c,element.c,element.h,errors.c,gstr.c,gstr.h,int.h,parser_aux.c,parser_aux.h,structure.c,structure.h@} grub-core/lib/libtasn1/lib/
 cp libtasn1-4.19.0/lib/includes/libtasn1.h include/grub/
 rm -rf libtasn1-4.19.0
 @end example
